@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Marquis-incoice/static/css/main.abb48311.chunk.css",
+    "main.js": "/Marquis-incoice/static/js/main.43226ce0.chunk.js",
+    "main.js.map": "/Marquis-incoice/static/js/main.43226ce0.chunk.js.map",
+    "runtime-main.js": "/Marquis-incoice/static/js/runtime-main.f9cf8fef.js",
+    "runtime-main.js.map": "/Marquis-incoice/static/js/runtime-main.f9cf8fef.js.map",
+    "static/js/2.1dfbe3a3.chunk.js": "/Marquis-incoice/static/js/2.1dfbe3a3.chunk.js",
+    "static/js/2.1dfbe3a3.chunk.js.map": "/Marquis-incoice/static/js/2.1dfbe3a3.chunk.js.map",
+    "index.html": "/Marquis-incoice/index.html",
+    "precache-manifest.4d7e4ff5c32950e0f9ec92d8c87de76e.js": "/Marquis-incoice/precache-manifest.4d7e4ff5c32950e0f9ec92d8c87de76e.js",
+    "service-worker.js": "/Marquis-incoice/service-worker.js",
+    "static/css/main.abb48311.chunk.css.map": "/Marquis-incoice/static/css/main.abb48311.chunk.css.map",
+    "static/js/2.1dfbe3a3.chunk.js.LICENSE.txt": "/Marquis-incoice/static/js/2.1dfbe3a3.chunk.js.LICENSE.txt",
+    "static/media/marquis_logo_short.png": "/Marquis-incoice/static/media/marquis_logo_short.09332992.png",
+    "static/media/index.css": "/Marquis-incoice/static/media/recta-smallcaps.2746c9cd.otf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f9cf8fef.js",
+    "static/js/2.1dfbe3a3.chunk.js",
+    "static/css/main.abb48311.chunk.css",
+    "static/js/main.43226ce0.chunk.js"
+  ]
+}

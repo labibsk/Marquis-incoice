@@ -1,9 +1,20 @@
+:root {
+  --color-accent: #F49D24;
+  --color-theme-black: #003D51;
+}
+@font-face {
+  font-family: "Recta Small Caps";
+  src: url('./assets/fonts/recta-smallcaps.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 html, body {
   margin: 0;
   min-height: 100%;
   font-family: 'Montserrat';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: #5895F0;
+  background: #003D51;
   display: inline;
 }

@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 import {Document, Page, Image } from '@react-pdf/renderer'
-import logo from '../../assets/edigital_wolf_logo.png'
+import logo from '../../assets/marquis_logo_short.png'
 import {format} from 'date-fns'
 import {
     Table,
@@ -37,18 +37,14 @@ class InvoicePdf extends Component {
                 <Page style={{margin:'0px', paddingBottom:'0pt', paddingTop:'0pt', paddingLeft:'0pt', paddingRight:'0pt'}}>
                     <FlexVertical style={{ width:'100vw'}}>
                         <FlexHorizontal style={{padding:'20pt'}}>
-                            <Image src={logo} style={{width:'60pt', height:'47pt'}}/>
+                            <Image src={logo} style={{width:'60pt', height:'61pt'}}/>
                             <FlexVertical>
-                                <CompanyName style={{marginTop:'8pt'}}>EDigital Wolf</CompanyName>
-                                <CompanyAddress style={{marginTop:'8pt', width:'350pt'}}>
-                                    Shri Siddhi Behind SBI Bank, Sasane Nagar
-                                </CompanyAddress>
-                                <CompanyAddress>
-                                    Hadapsar, Pune
-                                </CompanyAddress>
-                                <CompanyAddress>
-                                    Maharashtra 411028
-                                </CompanyAddress>
+                                <CompanyName style={{marginTop:'8pt'}}>MARQUIS MARKET SOLUTIONS</CompanyName>
+                                <CompanyAddress style={{marginTop:'8pt', width:'350pt'}}>604, Holloway Rd</CompanyAddress>
+                                <CompanyAddress>Islington, London</CompanyAddress>
+                                <CompanyAddress>N193PH</CompanyAddress>
+                                <CompanyAddress>United Kingdom</CompanyAddress>
+                                <CompanyAddress>+447411526698</CompanyAddress>
                             </FlexVertical>
                             <FlexVertical style={{flexGrow:'1' , alignItems:'end'}}>
                                 <InvoiceTitle>Invoice</InvoiceTitle>

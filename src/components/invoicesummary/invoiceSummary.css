@@ -7,7 +7,7 @@
 }
 
 .totalLabel{
-    color:#C11E29;
+    color:var(--color-theme-dark);
     font-weight: bold;
     font-size: 16px;
 }
@@ -20,7 +20,7 @@
 }
 
 .paymentMethodLabel{
-    color:#C11E29;
+    color:var(--color-theme-dark);
     font-weight: bold;
     font-size: 16px;
 }

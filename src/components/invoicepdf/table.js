@@ -14,7 +14,7 @@ export const TableHeader = styled.View`
 `
 export const TableHeaderCellLong = styled.Text`
     width:35vw;
-    color:#c11e29;
+    color:#003D51;
     font-family:'Montserrat';
     font-size:12pt;
     font-weight:bold;
@@ -22,7 +22,7 @@ export const TableHeaderCellLong = styled.Text`
 
 export const TableHeaderCell = styled.Text`
     width:15vw;
-    color:#c11e29;
+    color:#003D51;
     font-family:'Montserrat';
     font-size:12pt;
     font-weight:bold;

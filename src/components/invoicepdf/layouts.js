@@ -10,7 +10,7 @@ export const InvoiceHeader = styled.View`
         width:100vw;
         display:flex;
         flex-direction:row;
-        background:#C11E29;
+        background:#F49D24;
         padding:20pt;
         margin:0;
 `

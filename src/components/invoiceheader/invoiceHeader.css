@@ -1,6 +1,8 @@
 .InvoiceHeader{
-    background:#C11E29;
-    color: #fff;
+    --color-label: #555;
+    --color-placeholder: #666;
+    background-color: var(--color-accent);
+    color: var(--color-theme-dark);
     padding: 24px;
     display: grid;
     grid-template-columns: auto 90px 100px 100px auto;
@@ -18,7 +20,7 @@
 
 .billedToLabel{
     grid-area: billedToLabel;
-    color: #ccc;
+    color: var(--color-label);
     font-weight: bold;
     font-size: 14px;
 }
@@ -37,7 +39,7 @@
 
 .invoiceNoLabel{
     grid-area: invoiceNoLabel;
-    color: #ccc;
+    color: var(--color-label);
     font-weight: bold;
     font-size: 14px;
 }
@@ -50,7 +52,7 @@
 
 .issueDateLabel{
     grid-area: issueDateLabel;
-    color: #ccc;
+    color: var(--color-label);
     font-weight: bold;
     font-size: 14px;
 }
@@ -65,7 +67,7 @@
 
 .dueDateLabel{
     grid-area: dueDateLabel;
-    color: #ccc;
+    color: var(--color-label);
     font-weight: bold;
     font-size: 14px;
 }
@@ -79,7 +81,7 @@
 
 .invoiceTotalLabel{
     grid-area: invoiceTotalLabel;
-    color: #ccc;
+    color: var(--color-label);
     font-weight: bold;
     font-size: 14px;
     text-align: right;
@@ -87,7 +89,7 @@
 
 .invoiceTotal{
     grid-area: invoiceTotal;
-    color: #fff;
+    color: var(--color-theme-dark);
     font-weight: bold;
     font-size: 32px;
     text-align: right;
@@ -102,7 +104,7 @@
     background: none;
     border: none;
     outline: none;
-    color: #fff;
+    color: var(--color-theme-dark);
     font-family: 'Montserrat';
     resize: none;
     overflow: hidden;
@@ -111,20 +113,20 @@
 }
 
 .InvoiceHeader input[type="text"]::-webkit-input-placeholder{
-    color: #aaa;
+    color: var(--color-placeholder);
     font-weight: normal;
 }
 
 .InvoiceHeader input[type="text"]::-ms-input-placeholder{
-    color: #aaa;
+    color: var(--color-placeholder);
     font-weight: normal;
 }
 .InvoiceHeader input[type="text"]::placeholder{
-    color: #aaa;
+    color: var(--color-placeholder);
     font-weight: normal;
 }
 .InvoiceHeader input[type="text"]::-moz-placeholder  {
-    color: #aaa;
+    color: var(--color-placeholder);
     font-weight: normal;
 }
 

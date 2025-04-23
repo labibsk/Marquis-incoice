@@ -214,7 +214,7 @@ class App extends React.Component {
                   onUpdateDiscount={(id, discount)=>this.onUpdateDiscount(id, discount)}/>
           <Box>
             <Fab className="addButton" variant="extended"
-              color="primary" style={{ margin:'24px'}} onClick={()=>this.addItem()}>
+              color="secondary" style={{ margin:'24px'}} onClick={()=>this.addItem()}>
               <AddIcon className={classes.extendedIcon} style={{marginRight:'10px'}} /> Add Item
             </Fab>
           </Box>

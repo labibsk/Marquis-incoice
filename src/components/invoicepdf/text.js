@@ -1,27 +1,28 @@
 import styled from '@react-pdf/styled-components'
 import { Font } from '@react-pdf/renderer'
 
-Font.register({family:'Montserrat', src:'https://ismail-creatvt.github.io/invoicegen/fonts/Montserrat-Regular.ttf', fontStyle: 'normal', fontWeight: 'normal'})
-Font.register({family:'Montserrat', src:'https://ismail-creatvt.github.io/invoicegen/fonts/Montserrat-Medium.ttf', fontStyle: 'normal', fontWeight: 'medium'})
-Font.register({family:'Montserrat', src:'https://ismail-creatvt.github.io/invoicegen/fonts/Montserrat-Bold.ttf', fontStyle: 'normal', fontWeight: 'bold'})
+Font.register({family:'Montserrat', src:'/invoicegen/fonts/Montserrat-Regular.ttf', fontStyle: 'normal', fontWeight: 'normal'})
+Font.register({family:'Montserrat', src:'/invoicegen/fonts/Montserrat-Medium.ttf', fontStyle: 'normal', fontWeight: 'medium'})
+Font.register({family:'Montserrat', src:'/invoicegen/fonts/Montserrat-Bold.ttf', fontStyle: 'normal', fontWeight: 'bold'})
+Font.register({family:'Recta Small Caps', src:'/invoicegen/fonts/recta-smallcaps.ttf', fontStyle: 'normal', fontWeight: 'normal'})
 
 export const LabelText = styled.Text`
         font-family:'Montserrat';
         font-size:12pt;
-        color:#e0e0e0;
+        color:#555;
         font-weight:bold;
 `
 
 export const CompanyName = styled.Text`
         color:#232323;
-        font-family:'Montserrat';
+        font-family:'Recta Small Caps';
         font-size:14pt;
         font-weight:bold;
         margin-left:15pt;
 `
 export const InvoiceTitle = styled.Text`
         color:#232323;
-        font-family:'Montserrat';
+        font-family:'Recta Small Caps';
         font-size:18pt;
         font-weight:bold;
         flex-grow:1;
@@ -36,7 +37,7 @@ export const CompanyAddress = styled.Text`
         margin-left:15pt;
 `
 export const ValueText = styled.Text`
-        color:#fff;
+        color:#222;
         font-family:'Montserrat';
         font-size:16pt;
         font-weight:bold;
@@ -44,7 +45,7 @@ export const ValueText = styled.Text`
 `
 
 export const InvoiceTotalText = styled.Text`
-        color:#fff;
+        color:#222;
         font-family:'Montserrat';
         font-size:25pt;
         font-weight:bold;
@@ -53,7 +54,7 @@ export const InvoiceTotalText = styled.Text`
 
 export const BilledToAddressText = styled.Text`
         width:250pt;
-        color:#fff;
+        color:#222;
         font-family:'Montserrat';
         font-size:14pt;
         font-weight:bold;
@@ -61,7 +62,7 @@ export const BilledToAddressText = styled.Text`
 `
 
 export const FinalLabelText = styled.Text`
-    color:#c11e23;
+    color:#003D51;
     font-size:14pt;
     margin-top:12pt;
     font-family:'Montserrat';

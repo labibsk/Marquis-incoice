@@ -13,6 +13,7 @@
 .invoiceTitle{
     margin: 0;
     text-align: right;
+    font-family: "Recta Small Caps", sans-serif;
     grid-area: invoiceTitle;
 }
 

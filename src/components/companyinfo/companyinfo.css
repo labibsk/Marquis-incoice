@@ -13,8 +13,12 @@
     text-align: left;
     font-size: 24px;
     color: #333;
-    font-weight: bold;
     margin: 0;
+    font-weight: bold;
+    font-family: "Recta Small Caps", sans-serif;
+}
+.name span {
+    color: var(--color-accent);
 }
 
 .logo{

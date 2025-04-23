@@ -1,10 +1,10 @@
 import styled from '@react-pdf/styled-components'
 import { Font } from '@react-pdf/renderer'
 
-Font.register({family:'Montserrat', src:'/invoicegen/fonts/Montserrat-Regular.ttf', fontStyle: 'normal', fontWeight: 'normal'})
-Font.register({family:'Montserrat', src:'/invoicegen/fonts/Montserrat-Medium.ttf', fontStyle: 'normal', fontWeight: 'medium'})
-Font.register({family:'Montserrat', src:'/invoicegen/fonts/Montserrat-Bold.ttf', fontStyle: 'normal', fontWeight: 'bold'})
-Font.register({family:'Recta Small Caps', src:'/invoicegen/fonts/recta-smallcaps.ttf', fontStyle: 'normal', fontWeight: 'normal'})
+Font.register({family:'Montserrat', src:'/Marquis-incoice/fonts/Montserrat-Regular.ttf', fontStyle: 'normal', fontWeight: 'normal'})
+Font.register({family:'Montserrat', src:'/Marquis-incoice/fonts/Montserrat-Medium.ttf', fontStyle: 'normal', fontWeight: 'medium'})
+Font.register({family:'Montserrat', src:'/Marquis-incoice/fonts/Montserrat-Bold.ttf', fontStyle: 'normal', fontWeight: 'bold'})
+Font.register({family:'Recta Small Caps', src:'/Marquis-incoice/fonts/recta-smallcaps.ttf', fontStyle: 'normal', fontWeight: 'normal'})
 
 export const LabelText = styled.Text`
         font-family:'Montserrat';

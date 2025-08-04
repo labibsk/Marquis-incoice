@@ -39,7 +39,8 @@ class App extends React.Component {
       erroropen:false,
       error:'',
       paymentMethod:'',
-      downloadopen:false
+      downloadopen:false,
+      currency:'$'
     }
   }
 
@@ -178,6 +179,10 @@ class App extends React.Component {
     this.setState({...this.state, downloadopen:false})
   }
 
+  onCurrencyChanged(event) {
+    this.setState({...this.state, currency: event.target.value})
+  }
+
   render(){
     return (
       <div className="App">
@@ -196,6 +201,7 @@ class App extends React.Component {
                   total={this.state.total}
                   invoiceNo={this.state.invoiceNo}
                   issueDate={this.state.issueDate}
+                  currency={this.state.currency}
                   dueDate={this.state.dueDate}
                   name={this.state.customerName}
                   address={this.state.customerAddress}
@@ -204,7 +210,8 @@ class App extends React.Component {
                   cityState={this.state.customerCityState}
                   onCityStateChanged={this.onCityStateChanged.bind(this)}
                   onNameChanged={this.onNameChanged.bind(this)}
-                  onAddressChanged={this.onAddressChanged.bind(this)}/>
+                  onAddressChanged={this.onAddressChanged.bind(this)}
+                  onCurrencyChanged={this.onCurrencyChanged.bind(this)}/>
           <ItemTable 
                   items={this.state.items} 
                   onDelete={(id)=>this.onDelete(id)}

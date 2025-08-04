@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Marquis-incoice/static/css/main.abb48311.chunk.css",
-    "main.js": "/Marquis-incoice/static/js/main.230c6150.chunk.js",
-    "main.js.map": "/Marquis-incoice/static/js/main.230c6150.chunk.js.map",
+    "main.css": "/Marquis-incoice/static/css/main.59355f2b.chunk.css",
+    "main.js": "/Marquis-incoice/static/js/main.3461be7f.chunk.js",
+    "main.js.map": "/Marquis-incoice/static/js/main.3461be7f.chunk.js.map",
     "runtime-main.js": "/Marquis-incoice/static/js/runtime-main.f9cf8fef.js",
     "runtime-main.js.map": "/Marquis-incoice/static/js/runtime-main.f9cf8fef.js.map",
     "static/js/2.1dfbe3a3.chunk.js": "/Marquis-incoice/static/js/2.1dfbe3a3.chunk.js",
     "static/js/2.1dfbe3a3.chunk.js.map": "/Marquis-incoice/static/js/2.1dfbe3a3.chunk.js.map",
     "index.html": "/Marquis-incoice/index.html",
-    "precache-manifest.807b1e1903b69949520e4eb01fbf4a82.js": "/Marquis-incoice/precache-manifest.807b1e1903b69949520e4eb01fbf4a82.js",
+    "precache-manifest.c195b3c591a30f81e755990aeaf8a8b2.js": "/Marquis-incoice/precache-manifest.c195b3c591a30f81e755990aeaf8a8b2.js",
     "service-worker.js": "/Marquis-incoice/service-worker.js",
-    "static/css/main.abb48311.chunk.css.map": "/Marquis-incoice/static/css/main.abb48311.chunk.css.map",
+    "static/css/main.59355f2b.chunk.css.map": "/Marquis-incoice/static/css/main.59355f2b.chunk.css.map",
     "static/js/2.1dfbe3a3.chunk.js.LICENSE.txt": "/Marquis-incoice/static/js/2.1dfbe3a3.chunk.js.LICENSE.txt",
     "static/media/marquis_logo_short.png": "/Marquis-incoice/static/media/marquis_logo_short.09332992.png",
     "static/media/index.css": "/Marquis-incoice/static/media/recta-smallcaps.2746c9cd.otf"
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.f9cf8fef.js",
     "static/js/2.1dfbe3a3.chunk.js",
-    "static/css/main.abb48311.chunk.css",
-    "static/js/main.230c6150.chunk.js"
+    "static/css/main.59355f2b.chunk.css",
+    "static/js/main.3461be7f.chunk.js"
   ]
 }

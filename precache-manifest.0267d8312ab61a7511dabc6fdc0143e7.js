@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3c83ff41ed2d97801025c7ecd368023f",
+    "revision": "5343aa11ed8ede2c67c06223991ce2e4",
     "url": "/Marquis-incoice/index.html"
   },
   {
-    "revision": "c30f3042b072669afae8",
-    "url": "/Marquis-incoice/static/css/main.59355f2b.chunk.css"
+    "revision": "c97cfd8199632bc52fe0",
+    "url": "/Marquis-incoice/static/css/main.22d4132a.chunk.css"
   },
   {
     "revision": "d96692df0250bc43e0aa",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Marquis-incoice/static/js/2.1dfbe3a3.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c30f3042b072669afae8",
+    "revision": "c97cfd8199632bc52fe0",
     "url": "/Marquis-incoice/static/js/main.3461be7f.chunk.js"
   },
   {

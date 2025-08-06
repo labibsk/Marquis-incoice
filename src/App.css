@@ -61,6 +61,10 @@
     border-radius:0 !important;
   }
 
+  .saveButtonContainer {
+    margin-right:16px;
+  }
+  
   .App{
     grid-template-columns: 0px auto auto 0px;
   }
